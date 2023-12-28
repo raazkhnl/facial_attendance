@@ -32,18 +32,18 @@ const Dashboard = () => {
             const day = date.getDate();
             const month = date.getMonth();
             const year = date.getFullYear();
-            const data = require('../resources/hamro_patro/hamro-patro-scrapper/data/years/2080.json');
-            const dayData = data[month-3]?.days?.[day - 17];           
-            const event = dayData?.event;
-            const isHoliday = dayData?.isHoliday;
-            // const dayInEn = dayData?.dayInEn;
-            const dayInNp = dayData?.day;
-            const en = dayData?.en;
-            const className = isHoliday ? 'holiday' : '';
+            // const data = require('../resources/hamro_patro/hamro-patro-scrapper/data/years/2080.json');
+            // const dayData = data[month-3]?.days?.[day - 17];           
+            // const event = dayData?.event;
+            // const isHoliday = dayData?.isHoliday;
+            // // const dayInEn = dayData?.dayInEn;
+            // const dayInNp = dayData?.day;
+            // const en = dayData?.en;
+            // const className = isHoliday ? 'holiday' : '';
             return (
               <div >
                 {/* <div>{dayInEn}</div> */}
-                <div>{dayInNp}</div>
+                {/* <div>{dayInNp}</div> */}
                 {/* <div>{event}</div> */}
               </div>
             );
